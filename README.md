@@ -3,13 +3,13 @@
 <b>Serializer</b>
 </p>
 
-The serializer is a library used to convert an instance of anything to a string and a string to an instance of anything. It does so in such a way as to where all of the pointer references remain intact. It allows for a table of constructors to be presented so that context, on deserialization, could be remembered or changed. It’s an appropriate tool for cloning instances with deeply nested structures, however be advised serializing state to disk without encrypting and signing is a dangerous practice that should be avoided at all cost.
+The serializer is a library used to convert an instance of anything to a string and a string to an instance of anything. It does so in such a way as to where all of the pointer references remain intact. It allows for a table of constructors to be presented so that context, on deserialization, could be remembered or changed. It’s an appropriate tool for cloning instances with deeply nested structures. **However, be advised serializing state to disk without encrypting and signing is a dangerous practice that should be avoided at all cost.**
 
-Import the library
+#### Import the library
 ```ts
 import Serializer from "@ao-framework/serializer"
 ```
-Lets say we have a model 
+#### Lets say we have a model 
 ```ts
 namespace Model {
   
@@ -27,12 +27,12 @@ namespace Model {
 }
 ```
 
-Set up context
+#### Set up context
 ```ts
 let serializer = new Serializer(Model, "name-of-context")
 ```
 
-Work with your models
+#### Work with your models
 ```ts
 let user = new User();
 user.self = user;
@@ -40,17 +40,17 @@ user.name = "Something";
 user.email = "Something@gmail.com"
 ```
 
-Serialize
+#### Serialize
 ```ts
 let userString = serializer.down(user);
 ```
 
-De-serialize
+#### De-serialize
 ```ts
 let newUser = serializer.up(userString);
 ```
 
-Did it work?
+#### Did it work?
 ```ts
 console.log(newUser.self === newUser) //outputs: true
 ```
