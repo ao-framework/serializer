@@ -3,6 +3,8 @@
 <b>Serializer</b>
 </p>
 
+The serializer is a library used to convert an instance of anything to a string and a string to an instance of anything. It does so in such a way as to where all of the pointer references remain intact. It allows for a table of constructors to be presented so that context, on deserialization, could be remembered or changed. It’s an appropriate tool for cloning instances with deeply nested structures, however be advised serializing state to disk without encrypting and signing is a dangerous practice that should be avoided at all cost.
+
 Import the library
 ```ts
 import Serializer from "@ao-framework/serializer"
