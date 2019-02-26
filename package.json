@@ -27,5 +27,20 @@
     ],
     "verbose": true,
     "testURL": "http://localhost/"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ao-framework/serializer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ao-framework/serializer/issues"
+  },
+  "homepage": "https://github.com/ao-framework/serializer#readme"
 }
