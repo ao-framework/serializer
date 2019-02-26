@@ -28,7 +28,7 @@ Represents what a graph looks like
 
 **● c**: *`object`*
 
-*Defined in [interface/graphable.ts:24](https://github.com/ao-framework/serializer/blob/da19b8f/src/interface/graphable.ts#L24)*
+*Defined in [interface/graphable.ts:24](https://github.com/ao-framework/serializer/blob/0fbfd46/src/interface/graphable.ts#L24)*
 
 Specifies an object of contents
 
@@ -43,7 +43,7 @@ ___
 
 **● cx**: *`string`*
 
-*Defined in [interface/graphable.ts:20](https://github.com/ao-framework/serializer/blob/da19b8f/src/interface/graphable.ts#L20)*
+*Defined in [interface/graphable.ts:20](https://github.com/ao-framework/serializer/blob/0fbfd46/src/interface/graphable.ts#L20)*
 
 Specifies context of an object
 
@@ -54,7 +54,7 @@ ___
 
 **● r**: *`number`*
 
-*Defined in [interface/graphable.ts:8](https://github.com/ao-framework/serializer/blob/da19b8f/src/interface/graphable.ts#L8)*
+*Defined in [interface/graphable.ts:8](https://github.com/ao-framework/serializer/blob/0fbfd46/src/interface/graphable.ts#L8)*
 
 Specifies the reference index
 
@@ -65,7 +65,7 @@ ___
 
 **● t**: *`string`*
 
-*Defined in [interface/graphable.ts:12](https://github.com/ao-framework/serializer/blob/da19b8f/src/interface/graphable.ts#L12)*
+*Defined in [interface/graphable.ts:12](https://github.com/ao-framework/serializer/blob/0fbfd46/src/interface/graphable.ts#L12)*
 
 Specifies the typeof
 
@@ -76,7 +76,7 @@ ___
 
 **● v**: *`any`*
 
-*Defined in [interface/graphable.ts:16](https://github.com/ao-framework/serializer/blob/da19b8f/src/interface/graphable.ts#L16)*
+*Defined in [interface/graphable.ts:16](https://github.com/ao-framework/serializer/blob/0fbfd46/src/interface/graphable.ts#L16)*
 
 Specifies the value... specifically for Date
 

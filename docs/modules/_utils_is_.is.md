@@ -23,7 +23,7 @@ Handles assertions and a few standstills
 
 ▸ **builtFromModel**(namespace: *`string`*, models: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*, instance: *`object`*): `boolean`
 
-*Defined in [utils/is.ts:54](https://github.com/ao-framework/serializer/blob/da19b8f/src/utils/is.ts#L54)*
+*Defined in [utils/is.ts:54](https://github.com/ao-framework/serializer/blob/0fbfd46/src/utils/is.ts#L54)*
 
 Determines if an instance of an object was created using a model that its reference exists in our Serializer instance.
 
@@ -44,7 +44,7 @@ ___
 
 ▸ **date**(date: *`Date`*): `boolean`
 
-*Defined in [utils/is.ts:25](https://github.com/ao-framework/serializer/blob/da19b8f/src/utils/is.ts#L25)*
+*Defined in [utils/is.ts:25](https://github.com/ao-framework/serializer/blob/0fbfd46/src/utils/is.ts#L25)*
 
 Determines whether or not a variable is an instance of the Date object
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **everyPropertyConstructable**(namespace: *`string`*, models: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*): `void`
 
-*Defined in [utils/is.ts:35](https://github.com/ao-framework/serializer/blob/da19b8f/src/utils/is.ts#L35)*
+*Defined in [utils/is.ts:35](https://github.com/ao-framework/serializer/blob/0fbfd46/src/utils/is.ts#L35)*
 
 Blows and exception if the models object is not a perfect key value pair of constructables.
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **obj**(obj: *`object`*): `boolean`
 
-*Defined in [utils/is.ts:15](https://github.com/ao-framework/serializer/blob/da19b8f/src/utils/is.ts#L15)*
+*Defined in [utils/is.ts:15](https://github.com/ao-framework/serializer/blob/0fbfd46/src/utils/is.ts#L15)*
 
 Determines whether or not a variable is an object or not.
 

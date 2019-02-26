@@ -42,7 +42,7 @@ Represents the downcaster...
 
 ⊕ **new DownCaster**(namespace: *`any`*, models: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*, data: *`any`*): [DownCaster](_down_caster_.downcaster.md)
 
-*Defined in [down.caster.ts:20](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L20)*
+*Defined in [down.caster.ts:20](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L20)*
 
 Create an instance of Downcaster
 
@@ -66,7 +66,7 @@ ___
 
 **● graph**: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*
 
-*Defined in [down.caster.ts:20](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L20)*
+*Defined in [down.caster.ts:20](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L20)*
 
 Holds the graph, of the instance for the serialization.
 
@@ -77,7 +77,7 @@ ___
 
 **● models**: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*
 
-*Defined in [down.caster.ts:29](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L29)*
+*Defined in [down.caster.ts:29](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L29)*
 
 ___
 <a id="namespace"></a>
@@ -86,7 +86,7 @@ ___
 
 **● namespace**: *`any`*
 
-*Defined in [down.caster.ts:29](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L29)*
+*Defined in [down.caster.ts:29](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L29)*
 
 ___
 <a id="pointers"></a>
@@ -95,7 +95,7 @@ ___
 
 **● pointers**: *`any`[]* =  []
 
-*Defined in [down.caster.ts:14](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L14)*
+*Defined in [down.caster.ts:14](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L14)*
 
 Holds all the pointers for whatever is beings serialized, ensuring that all references a correctly allocated.
 
@@ -109,7 +109,7 @@ ___
 
 ▸ **graphArray**(arr: *`any`[]*): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:80](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L80)*
+*Defined in [down.caster.ts:80](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L80)*
 
 Holds graphing arrays
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **graphData**(data: *`any`*): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:61](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L61)*
+*Defined in [down.caster.ts:61](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L61)*
 
 Entry point to recursively look through the data provide and assign a graphable.
 
@@ -147,7 +147,7 @@ ___
 
 ▸ **graphDate**(date: *`Date`*): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:98](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L98)*
+*Defined in [down.caster.ts:98](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L98)*
 
 Handles graphing dates
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **graphObject**(obj: *`object`*): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:114](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L114)*
+*Defined in [down.caster.ts:114](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L114)*
 
 Handles graphing objects
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **graphPrimitives**(value: *`any`*): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:138](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L138)*
+*Defined in [down.caster.ts:138](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L138)*
 
 Handles graphing primitives
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **makeGraphable**(): [Graphable](../interfaces/_interface_graphable_.graphable.md)
 
-*Defined in [down.caster.ts:153](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L153)*
+*Defined in [down.caster.ts:153](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L153)*
 
 Helper method to make as instance of graphable
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **stripPointersOfResponsibility**(): `void`
 
-*Defined in [down.caster.ts:40](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L40)*
+*Defined in [down.caster.ts:40](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L40)*
 
 This makes it more optimized in the upcaster and doesn't hold on to pointers of a developer's instance for garbage collection purposes.
 
@@ -230,7 +230,7 @@ ___
 
 ▸ **toString**(spaces?: *`number`*): `string`
 
-*Defined in [down.caster.ts:160](https://github.com/ao-framework/serializer/blob/da19b8f/src/down.caster.ts#L160)*
+*Defined in [down.caster.ts:160](https://github.com/ao-framework/serializer/blob/0fbfd46/src/down.caster.ts#L160)*
 
 Stringifies the graph and pointers
 

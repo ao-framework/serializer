@@ -27,7 +27,7 @@ Namespace to hold all exception behavior and classes
 
 ▸ **blow**(namespace: *`string`*, message: *`string`*): `void`
 
-*Defined in [exceptions.ts:38](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L38)*
+*Defined in [exceptions.ts:38](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L38)*
 
 Quick factory for creating an exception. This helps with testing. and getting coverage.
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **invalidGraph**(namespace: *`string`*): `void`
 
-*Defined in [exceptions.ts:48](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L48)*
+*Defined in [exceptions.ts:48](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L48)*
 
 Throws an exception any time there is problem with graph in deserialization.
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **invalidPointer**(namespace: *`string`*): `void`
 
-*Defined in [exceptions.ts:66](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L66)*
+*Defined in [exceptions.ts:66](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L66)*
 
 Throws an error when deserialization can not find a pointer.
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **invalidPointerSet**(namespace: *`string`*): `void`
 
-*Defined in [exceptions.ts:57](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L57)*
+*Defined in [exceptions.ts:57](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L57)*
 
 Throws an error when the pointers property, in deserialization is not an array.
 

@@ -33,7 +33,7 @@ Represents a core exception in Serializer.
 
 ⊕ **new Exception**(namespace: *`string`*, message: *`string`*): [Exception](_exceptions_.exceptions.exception.md)
 
-*Defined in [exceptions.ts:11](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L11)*
+*Defined in [exceptions.ts:11](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L11)*
 
 Creates an instance of an exception
 
@@ -56,7 +56,7 @@ ___
 
 **● message**: *`string`*
 
-*Defined in [exceptions.ts:20](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L20)*
+*Defined in [exceptions.ts:20](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L20)*
 
 The exception message
 
@@ -67,7 +67,7 @@ ___
 
 **● namespace**: *`string`*
 
-*Defined in [exceptions.ts:19](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L19)*
+*Defined in [exceptions.ts:19](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L19)*
 
 The namespace of the Serializer instance
 
@@ -81,7 +81,7 @@ ___
 
 ▸ **toString**(): `string`
 
-*Defined in [exceptions.ts:26](https://github.com/ao-framework/serializer/blob/da19b8f/src/exceptions.ts#L26)*
+*Defined in [exceptions.ts:26](https://github.com/ao-framework/serializer/blob/0fbfd46/src/exceptions.ts#L26)*
 
 Handles toString() for the console.
 

@@ -42,7 +42,7 @@ Represents the upcaster...
 
 ⊕ **new UpCaster**(namespace: *`string`*, model: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*, str: *`string`*): [UpCaster](_up_caster_.upcaster.md)
 
-*Defined in [up.caster.ts:22](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L22)*
+*Defined in [up.caster.ts:22](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L22)*
 
 Creates an instance of UpCaster
 
@@ -66,7 +66,7 @@ ___
 
 **● instance**: *`any`*
 
-*Defined in [up.caster.ts:17](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L17)*
+*Defined in [up.caster.ts:17](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L17)*
 
 Holds the instance as state is being pieced back together.
 
@@ -77,7 +77,7 @@ ___
 
 **● model**: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*
 
-*Defined in [up.caster.ts:30](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L30)*
+*Defined in [up.caster.ts:30](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L30)*
 
 ___
 <a id="namespace"></a>
@@ -86,7 +86,7 @@ ___
 
 **● namespace**: *`string`*
 
-*Defined in [up.caster.ts:30](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L30)*
+*Defined in [up.caster.ts:30](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L30)*
 
 '
 
@@ -97,7 +97,7 @@ ___
 
 **● pointers**: *`any`[]* =  []
 
-*Defined in [up.caster.ts:22](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L22)*
+*Defined in [up.caster.ts:22](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L22)*
 
 Holds the list of pointers
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **getDowncaster**(str: *`string`*): `any`
 
-*Defined in [up.caster.ts:40](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L40)*
+*Defined in [up.caster.ts:40](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L40)*
 
 Get the "rough" instance of Downcaster from JSON
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **getInstanceFromDowncaster**(downcaster: *[DownCaster](_down_caster_.downcaster.md)*): `any`
 
-*Defined in [up.caster.ts:57](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L57)*
+*Defined in [up.caster.ts:57](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L57)*
 
 Once the downcaster is in place, this method will recursively return the pointers for the given graphs
 
@@ -149,7 +149,7 @@ ___
 
 ▸ **toInstance**<`Context`>(): `any`
 
-*Defined in [up.caster.ts:174](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L174)*
+*Defined in [up.caster.ts:174](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L174)*
 
 Returns the instance and handles garbage collection
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **unGraphArray**(graph: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*): `any`[]
 
-*Defined in [up.caster.ts:91](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L91)*
+*Defined in [up.caster.ts:91](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L91)*
 
 Handles ungraphing arrays
 
@@ -185,7 +185,7 @@ ___
 
 ▸ **unGraphDate**(graph: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*): `any`
 
-*Defined in [up.caster.ts:110](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L110)*
+*Defined in [up.caster.ts:110](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L110)*
 
 Handles ungraphing dates
 
@@ -204,7 +204,7 @@ ___
 
 ▸ **unGraphObject**(graph: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*): `any`
 
-*Defined in [up.caster.ts:129](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L129)*
+*Defined in [up.caster.ts:129](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L129)*
 
 Handles ungraphing objects
 
@@ -223,7 +223,7 @@ ___
 
 ▸ **unGraphPrimitives**(graph: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*): `any`
 
-*Defined in [up.caster.ts:162](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L162)*
+*Defined in [up.caster.ts:162](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L162)*
 
 Handles ungraphing primitives
 
@@ -242,7 +242,7 @@ ___
 
 ▸ **ungraphData**(graph: *[Graphable](../interfaces/_interface_graphable_.graphable.md)*): `any`
 
-*Defined in [up.caster.ts:67](https://github.com/ao-framework/serializer/blob/da19b8f/src/up.caster.ts#L67)*
+*Defined in [up.caster.ts:67](https://github.com/ao-framework/serializer/blob/0fbfd46/src/up.caster.ts#L67)*
 
 Entry point for ungraphing
 

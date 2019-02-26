@@ -34,7 +34,7 @@ Definition for the an instance of Serializer.
 
 ⊕ **new Serializer**(models?: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*, namespace?: *`string`*): [Serializer](_serializer_.serializer.md)
 
-*Defined in [serializer.ts:22](https://github.com/ao-framework/serializer/blob/da19b8f/src/serializer.ts#L22)*
+*Defined in [serializer.ts:22](https://github.com/ao-framework/serializer/blob/0fbfd46/src/serializer.ts#L22)*
 
 Creates an instance of Serializer
 
@@ -57,7 +57,7 @@ ___
 
 **● models**: *[ModelCollection](../interfaces/_interface_model_collection_.modelcollection.md)*
 
-*Defined in [serializer.ts:17](https://github.com/ao-framework/serializer/blob/da19b8f/src/serializer.ts#L17)*
+*Defined in [serializer.ts:17](https://github.com/ao-framework/serializer/blob/0fbfd46/src/serializer.ts#L17)*
 
 Holds context for custom types during serialization.
 
@@ -68,7 +68,7 @@ ___
 
 **● namespace**: *`string`* = "@~serializer."
 
-*Defined in [serializer.ts:22](https://github.com/ao-framework/serializer/blob/da19b8f/src/serializer.ts#L22)*
+*Defined in [serializer.ts:22](https://github.com/ao-framework/serializer/blob/0fbfd46/src/serializer.ts#L22)*
 
 the name for the instance of serializer
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **down**(instance: *`any`*, spaces?: *`number`*): `string`
 
-*Defined in [serializer.ts:48](https://github.com/ao-framework/serializer/blob/da19b8f/src/serializer.ts#L48)*
+*Defined in [serializer.ts:48](https://github.com/ao-framework/serializer/blob/0fbfd46/src/serializer.ts#L48)*
 
 Takes an instance of anything and serializes it down to a string.
 
@@ -102,7 +102,7 @@ ___
 
 ▸ **up**<`Context`>(data: *`string`*): `Context`
 
-*Defined in [serializer.ts:61](https://github.com/ao-framework/serializer/blob/da19b8f/src/serializer.ts#L61)*
+*Defined in [serializer.ts:61](https://github.com/ao-framework/serializer/blob/0fbfd46/src/serializer.ts#L61)*
 
 Takes a string that what serialized, and given the same setup, will parse recursively back to its original state, all the while, remembering state.
 
