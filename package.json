@@ -37,7 +37,7 @@
     "type": "git",
     "url": "git+https://github.com/ao-framework/serializer.git"
   },
-  "author": "",
+  "author": "Josh Miller",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ao-framework/serializer/issues"
