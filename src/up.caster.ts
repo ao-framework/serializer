@@ -4,11 +4,7 @@ import { DownCaster } from "./down.caster";
 import Exceptions from "./exceptions";
 import Is from "./utils/is";
 
-/**
- * Represents the upcaster...
- */
 export class UpCaster {
-
     /**
      * Holds the instance as 
      * state is being pieced

@@ -1,12 +1,7 @@
 import { ModelCollection } from "../interface/model.collection";
 import Exceptions from "../exceptions";
 
-/**
- * Handles assertions and a few
- * standstills
- */
 namespace Is {
-
     /**
      * Determines whether or not a variable
      * is an object or not.

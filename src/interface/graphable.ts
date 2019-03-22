@@ -1,6 +1,3 @@
-/**
- * Represents what a graph looks like
- */
 export interface Graphable {
     /**
      * Specifies the reference index

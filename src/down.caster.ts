@@ -2,9 +2,6 @@ import { Graphable } from "./interface/graphable";
 import Is from "./utils/is";
 import { ModelCollection } from "./interface/model.collection";
 
-/**
- * Represents the downcaster...
- */
 export class DownCaster {
     /**
      * Holds all the pointers for whatever

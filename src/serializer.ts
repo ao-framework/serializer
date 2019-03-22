@@ -5,10 +5,6 @@ import { DownCaster } from "./down.caster";
 import { UpCaster } from "./up.caster";
 import Exceptions from "./exceptions";
 
-/**
- * Definition for the an instance
- * of Serializer.
- */
 export class Serializer {
     /**
      * Holds context for custom types

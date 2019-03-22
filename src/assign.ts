@@ -1,11 +1,6 @@
 import { ModelCollection } from "./interface/model.collection";
 
-/**
- * Anything that has to do
- * with assigning anything.
- */
 namespace Assign {
-
     /**
      * Since the constructor may be used in
      * multiple instances of Serializer by another

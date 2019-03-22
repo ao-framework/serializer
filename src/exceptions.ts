@@ -1,9 +1,4 @@
-/**
- * Namespace to hold all exception
- * behavior and classes
- */
 namespace Exceptions {
-
     /**
      * Represents a core exception
      * in Serializer.
